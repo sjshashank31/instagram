@@ -8,7 +8,7 @@ service provider of that phone number'''
 from phonenumbers import carrier
 from phonenumbers import geocoder
 
-phone_number = phonenumbers.parse("+918696558836")
+phone_number = phonenumbers.parse("+918*********")
 
 # this will print the service provider name
 print(carrier.name_for_number(phone_number,
